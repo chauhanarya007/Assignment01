@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.aryachauhan172.assignment01.Tableview"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aryachauhan172.assignment01.TableViewController">
+    <children>
+        <TableView fx:id="table" layoutX="32.0" layoutY="50.0" prefHeight="299.0" prefWidth="535.0">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="65.33331298828125" text="Name" />
+                <TableColumn fx:id="damage" prefWidth="117.33334350585938" text="Damange" />
+                <TableColumn fx:id="weight" prefWidth="97.99993896484375" text="Weight" />
+                <TableColumn fx:id="gold" prefWidth="114.0" text="Gold" />
+                <TableColumn fx:id="type" prefWidth="140.6666259765625" text="Type" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="5.0" prefHeight="34.0" prefWidth="238.0" text="Skyrim Weapons" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="23.0" />
+            </font>
+        </Label>
+        <Button layoutX="445.0" layoutY="364.0" mnemonicParsing="false" onAction="#switchtochart" text="Switch to ChartView">
+            <font>
+                <Font name="System Bold Italic" size="13.0" />
+            </font>
+        </Button>
+    </children>
 </AnchorPane>
