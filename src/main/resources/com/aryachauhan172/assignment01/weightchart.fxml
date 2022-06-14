@@ -6,11 +6,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aryachauhan172.assignment01.ChartController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aryachauhan172.assignment01.WeightController">
     <children>
         <BorderPane layoutX="200.0" layoutY="90.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <top>
-                <Label text="Damage Chart" BorderPane.alignment="CENTER">
+                <Label text="Weight Chart" BorderPane.alignment="CENTER">
                     <font>
                         <Font name="System Bold Italic" size="16.0" />
                     </font></Label>
@@ -28,7 +28,7 @@
             <bottom>
                 <HBox alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
                     <children>
-                        <RadioButton mnemonicParsing="false" onAction="#weightgraph" prefHeight="17.0" prefWidth="176.0" text="Weight Chart">
+                        <RadioButton mnemonicParsing="false" onAction="#damagegraph" prefHeight="17.0" prefWidth="176.0" text="Damage Chart">
                             <font>
                                 <Font name="System Bold" size="12.0" />
                             </font>
